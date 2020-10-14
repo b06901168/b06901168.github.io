@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B06901168-黃其澤</title>
+    <div style="text-align:center;"><h2>臺大學生證產生器</h2><h1>作者 : B06901168 - 黃其澤</h1></div>
+    <link rel="stylesheet" href="./css/center.css">
+</head>
+<body>
+        <div class="card">
+            <div class="firstcolor"></div>
+            <div class="secondcolor">
+                <div class="leftside">
+                    <div class="logo"></div>
+                    <div class="data">
+                        <div class="line1"><div id= "department_ch"></div></div>
+                        <div class="line2"><div id= "department_en"></div></div>
+                        <div class="line1"><div id= "name"></div></div>
+                        <div class="barcode">
+                            <div class="barcodeimg"></div>
+                            <div class="white"> <p id="demo" Align = "Center"></p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="person"></div>
+            </div>
+        </div>
+        <button onclick="location.reload()">Generate</button>
+        <!--img id= "picture"--> 
+
+
+<script>
+var x = Math.floor((Math.random() * 9) + 1);
+document.getElementById("demo").innerHTML = x;
+var arr_name = ["林雅萱","阮玉婷","張俐諭","葉淑婷","陳培倫","王淑君","吳淑惠","胡木鴻","蔡志淑","陳佳昀","蔣怡珊","郭昱宏","張奕君","傅湘輝","毛偉翔","彭芷弘","張定俊","李佩萱","許湘胤","黃建雯","朱志明","賴惠伸","張香旭","欒廷霖","鄭明倫","蔡瑜海","黃姿伶","劉志銘","李翔維","陳建銘","戈介泉","郭家仁","童佩珊","林盈娟","蔡康芸","王瑋婷","林建宇","王綺君","郭上群","李聿昇","張采謙","張雅惠","劉佳原","陳怡欣","唐建宏","池舜枝","吳雯學","李婉恩","謝政勳","吳玉芳","張珮龍","童欣怡","吳姿松","毛惠美","陶佑燕","李淑萍","劉函火","陳怡如","周佩君","蔡湘添","李孟星","陳宏合","袁佩珊","陳惠文","謝姿婷","張玉生","柳志文","謝秀玲","吳詠和","張瑞湖","王莉樂","張智心","林凱鈞","黃郁哲","陳凡如","盧蓉潔","李明琴","張怡蓁","張玄沛","黃冠季","林志豪","吳馨儀","梁承翰","翁志純","楊延城","吳文怡","謝珍昀","林家孜","丁聖凱","蔡景裕","鄂平","張美明","富天水","陳宗達","朱世達","郭婉婷","魏佳蓉","許月宇","馮政達","林建宏"];
+var index_1 = Math.floor((Math.random()*arr_name.length));
+document.getElementById("name").innerHTML = arr_name[index_1];
+var arr_department_ch = ["電機工程學系","資訊工程學系","地理環境資源學系","社會學系","醫學系","農藝學系","獸醫學系","財務金融學系","土木工程學系","生命科學系"];
+var arr_department_en = ["Department of Electrical Engineering","Department of Computer Science & Information Engineering","Department of Geography","Department of Sociology","Department of Medicine","Department of Agronomy","Department of Veterinary Medicine","Department of Finance","Department of Civil Engineering","Department of Life Science"]
+var index_2 = Math.floor((Math.random()*arr_department_ch.length));
+document.getElementById("department_ch").innerHTML = arr_department_ch[index_2];
+document.getElementById("department_en").innerHTML = arr_department_en[index_2];
+</script>
+</body>
+</html>

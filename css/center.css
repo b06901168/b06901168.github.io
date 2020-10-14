@@ -1,0 +1,110 @@
+.v-center {
+    padding-top: calc(10vh/ 2);
+}
+
+.card {
+    height: 80vh;
+    /*這是比例*/
+    width: 68vw;
+    border: 1px solid;
+    border-radius: 1.8vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.firstcolor {
+    height: 5vh;
+    background-color: #26FF26;
+    background-size: cover;
+    border-top-left-radius: 1.8vw;
+    border-top-right-radius: 1.8vw;
+}
+
+.secondcolor {
+    height: 75vh;
+    background-color: #CEFFCE;
+    background-size: cover;
+    border-bottom-left-radius: 1.8vw;
+    border-bottom-right-radius: 1.8vw;
+}
+
+.logo {
+    height: 25vh;
+    width: 40vw;
+    background-image: url(../img/ntu_logo.png);
+    background-position: 0% 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+}
+
+.person {
+    height: 60vh;
+    width: 22vw;
+    background-image: url(https://thispersondoesnotexist.com/image);
+    background-size: cover;
+    background-position-x: center;
+    display: inline-block;
+    float: left;
+    margin-top: 5vh;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+
+.leftside {
+    height: 60vh;
+    width: 40vw;
+    float: left;
+}
+
+.data {
+    height: 35vh;
+    width: 40vw;
+    display: inline-block;
+}
+
+.pic {
+    display: inline-block;
+}
+
+.line1 {
+    margin-left: 2vw;
+    height: 10vh;
+    width: 40vw;
+    font-size: 40px;
+}
+
+.line2 {
+    margin-left: 2vw;
+    height: 12vh;
+    width: 40vw;
+    font-size: 30px;
+}
+
+.barcode {
+    height: 15vh;
+    width: 70vw;
+    /*background-image: url(../img/barcode.png);
+    background-size: contain;*/
+}
+
+.barcodeimg {
+    height: 12vh;
+    width: 33vw;
+    margin-top: 3vh;
+    margin-left: 2vw;
+    margin-bottom: 3vh;
+    background-image: url(../img/barcode.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+    float: left;
+}
+
+.white {
+    margin-top: 3vh;
+    height: 12vh;
+    width: 3vw;
+    background-color: #ffffff;
+    background-size: cover;
+    float: left;
+}
